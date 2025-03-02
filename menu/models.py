@@ -1,5 +1,5 @@
 from django.db import models
-
+from restaurant.models import Restaurant
 # Create your models here.
 
 class Menu(models.Model):

@@ -1,5 +1,5 @@
 from django.db import models
-
+from customers.models import Customer
 # Create your models here.
 class CustomerFeedback(models.Model):
     feedback_id = models.AutoField(db_column='Feedback_ID', primary_key=True)  # Field name made lowercase.

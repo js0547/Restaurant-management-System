@@ -1,5 +1,5 @@
 from django.db import models
-
+from restaurant.models import Restaurant
 # Create your models here.
 class Staff(models.Model):
     staff_id = models.AutoField(db_column='Staff_ID', primary_key=True)  # Field name made lowercase.
