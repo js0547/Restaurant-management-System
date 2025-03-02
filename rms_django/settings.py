@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'rms_django.wsgi.application'
 DATABASES = {
    'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'RestaurantDB',  # database name
+        'NAME': 'restaurantdb',  # database name
         'USER': 'root',          #  MySQL username
         'PASSWORD': 'Junaid786@', # MySQL password
         'HOST': 'localhost',     # Change if using a remote DB
