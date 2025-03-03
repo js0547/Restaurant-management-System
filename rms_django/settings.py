@@ -37,9 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-]
-
-EXTERNAL_APPS=[
     'restaurant',
     'menu',
     'staff',
@@ -50,7 +47,6 @@ EXTERNAL_APPS=[
     'feedback'
 ]
 
-INSTALLED_APPS += EXTERNAL_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

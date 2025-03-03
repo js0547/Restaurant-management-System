@@ -1,5 +1,5 @@
 from django.db import models
-
+from orders.models import Orders
 # Create your models here.
 
 class Payment(models.Model):
@@ -10,5 +10,4 @@ class Payment(models.Model):
     status = models.CharField(db_column='Status', max_length=7, blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
-        managed = False
         db_table = 'payment'
