@@ -1,9 +1,6 @@
 from django.db import models
 from customers.models import Customer
-<<<<<<< HEAD
 from orders.models import Orders
-=======
->>>>>>> cbd8ecd6a62ca4d41e9b501cfd90c552b10b76f2
 # Create your models here.
 class CustomerFeedback(models.Model):
     feedback_id = models.AutoField(db_column='Feedback_ID', primary_key=True)  # primary key field.

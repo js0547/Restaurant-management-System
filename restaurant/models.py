@@ -15,7 +15,7 @@ class Restaurant(models.Model):
     zip_code = models.CharField(db_column='Zip_Code', max_length=10, blank=True, null=True) 
     contact_no = models.CharField(db_column='Contact_No', unique=True, max_length=15) 
     branch_type = models.CharField(max_length=10, choices=BRANCH_TYPE_CHOICES, default='Main')
-    branch_name = models.CharField(max_length=100, default='Headquarters')
+    
 
     class Meta:
         db_table = 'restaurant'
